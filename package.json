@@ -1,0 +1,23 @@
+{
+  "name": "rosgraph",
+  "version": "1.0.0",
+  "description": "Rosgraph visualization in web using rosbridge and visjs",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michoy/rosgraph.git"
+  },
+  "author": "michael hoyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michoy/rosgraph/issues"
+  },
+  "homepage": "https://github.com/michoy/rosgraph#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "roslib": "^1.1.0"
+  }
+}
